@@ -1,0 +1,21 @@
+{
+	"required": true,
+	"package": "hack.skate.client.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"MixinClientConnection"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"client": [
+		"ClientPlayerInteractionManagerAccessor",
+		"MinecraftClientAccessor",
+		"MixinClientPlayerEntity",
+		"MixinGameRenderer",
+		"MixinInGameHud",
+		"MixinKeyboard",
+		"MixinMinecraftClient",
+		"MouseHandlerAccessor"
+	]
+}
