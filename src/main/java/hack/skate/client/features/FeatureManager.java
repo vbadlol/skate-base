@@ -7,7 +7,6 @@ import java.util.ArrayList;
 import hack.skate.client.features.impl.client.ClickGUI;
 import hack.skate.client.features.impl.client.Teams;
 import hack.skate.client.features.impl.combat.TriggerBot;
-import hack.skate.client.features.impl.movement.NoJumpDelay;
 import hack.skate.client.features.impl.movement.Sprint;
 import hack.skate.client.features.impl.render.HUD;
 import hack.skate.client.features.impl.render.Nametags;
