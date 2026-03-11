@@ -40,7 +40,7 @@ public class HUD extends Feature {
             Skate.fonts.getArial().renderWithShadow(
                 event.getMatrixStack(),
                 "kate", 
-                watermarkX.getValue() + mc.textRenderer.getWidth("S"), 
+                watermarkX.getValue() + Skate.fonts.getArial().getWidth("S") - 1, 
                 watermarkY.getValue(), 
                 9,
                 ColorConfig.TEXT_WHITE.getRGB()
